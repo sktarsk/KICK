@@ -9,14 +9,14 @@ class UsetString:
     CAP = f'''
 <b>CUSTOM CAPTION SETTING</b>\n
 Set custom caption with <b>HTML</b> style
-Example: <code>{escape("<b>By:</b> <a href='https://t.me/hexafreinds'>HF</a>")}</code>
-Result: <b>By:</b> <a href='https://t.me/hexafreinds'>HF</a>\n
+Example: <code>{escape("<b>By:</b> <a href='https://t.me/Teamleech_updates'>HF</a>")}</code>
+Result: <b>By:</b> <a href='https://t.me/Teamleech_updates'>HF</a>\n
 <i>*Be careful when you use html tag for caption\n
 Timeout: 60s.</i>
 '''
     DUMP = '''
 <b>DUMP SETTING</b>\n
-Example: <code>-1001963446260</code> or <code>username</code>\n
+Example: <code>-1001782322640</code> or <code>username</code>\n
 Timeout: 60s.</i>
 '''
     RCP = '''
@@ -45,20 +45,20 @@ Timeout: 60s.</i>
 '''
     PRE = '''
 <b>PRENAME SETTING</b>\n
-Example: <b>@hexafreinds -</b>\n
+Example: <b>@Teamleech_updates -</b>\n
 <b>Org Name:</b>
 <code>Ironman 1 (2008) [1080p].mkv</code>
 <b>Result:</b>
-<code>@hexafreinds - Ironman 1 (2008) [1080p].mkv</code>\n
+<code>@Teamleech_updates - Ironman 1 (2008) [1080p].mkv</code>\n
 <i>Timeout: 60s.</i>
 '''
     SUF = '''
 <b>SUFNAME SETTING</b>\n
-Example: <b>- @hexafreinds</b>\n
+Example: <b>- @Teamleech_updates</b>\n
 <b>Org Name:</b>
 <code>Ironman 1 (2008) [1080p].mkv</code>
 <b>Result:</b>
-<code>Ironman 1 (2008) [1080p] - @hexafreinds.mkv</code>\n
+<code>Ironman 1 (2008) [1080p] - @Teamleech_updates.mkv</code>\n
 <i>Timeout: 60s.</i>
 '''
     SES = f'''
@@ -80,7 +80,7 @@ Example: <code>[</code><b>|</b><code>]</code><b>|</b> <code>-</code> <b>|</b> <c
 '''
     META = '''
 <b>METADATA SETTING</b>\n
-Send metadata title for video file like <b>Uploaded by @maheshsirop</b>
+Send metadata title for video file like <b>Uploaded by @Teamleech_updates</b>
 <b>Current:</b> <code>{}</code>\n
 <i>Timeout: 60s.</i>
 '''
