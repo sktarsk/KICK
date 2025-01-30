@@ -349,7 +349,7 @@ if GOFILE:
 # Auto Mute
 FORCE_SHORTEN = environ.get('FORCE_SHORTEN', 'False').lower() == 'true'
 AUTO_MUTE = environ.get('AUTO_MUTE', 'False').lower() == 'true'
-MUTE_CHAT_ID = "-1001963446260"
+MUTE_CHAT_ID = ""
 AUTO_MUTE_DURATION = int(environ.get('AUTO_MUTE_DURATION', 30))
 # Username
 FUSERNAME = environ.get('FUSERNAME', 'False').lower() == 'true'
