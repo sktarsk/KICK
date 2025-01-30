@@ -197,7 +197,7 @@ async def get_user_settings(from_user, data: str, uset_data: str):
         rccmsg, buttonkey = ('EXISTS ✅', '✅ RClone Config') if await aiopath.exists(rclone_path) else ('NOT SET', 'RClone Config')
         buttons.button_data(buttonkey, f'userset {user_id} setdata rclone_config')
 
-        rcpathmsg, buttonkey = (f'<code>{rc_path}</code>', '🔥 RClone Path') if (rc_path := user_dict.get('rclone_path')) else ('<b>NOT SET</b>', 'RClone Path')
+        rcpathmsg, buttonkey = (f'<code>{rc_path}</code>', '✅ RClone Path') if (rc_path := user_dict.get('rclone_path')) else ('<b>NOT SET</b>', 'RClone Path')
         buttons.button_data(buttonkey, f'userset {user_id} setdata rclone_path')
 
         buttons.button_data('Back', f'userset {user_id} back')
@@ -287,7 +287,7 @@ async def get_user_settings(from_user, data: str, uset_data: str):
                 buttons.button_data('✅ Log Title' if log_title else 'Log Title', f'userset {user_id} setdata dump_ch {not log_title}')
             elif uset_data == 'metadata':
                 clean_meta = user_dict.get('clean_metadata')
-                buttons.button_data('✅ Clean' if clean_meta else '🔥 Overwrite', f'userset {user_id} setdata metadata {not clean_meta}')
+                buttons.button_data('✅ Clean' if clean_meta else '✅ Overwrite', f'userset {user_id} setdata metadata {not clean_meta}')
 
             key, butkey, text, image, qdata = uset_dict[uset_data]
             if user_dict.get(key) or key == 'yt_opt' and config_dict['YT_DLP_OPTIONS']:
