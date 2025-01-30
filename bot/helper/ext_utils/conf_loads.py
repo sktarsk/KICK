@@ -33,11 +33,11 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'CLOUD_LINK_FILTERS': '',
                   'UPSTREAM_BRANCH': 'main',
                   'FSUB_BUTTON_NAME': 'Join Group',
-                  'CHANNEL_USERNAME': 'hexafreinds',
-                  'AUTHOR_NAME': 'MAHESH',
-                  'AUTHOR_URL': 'https://t.me/maheshsirop',
+                  'CHANNEL_USERNAME': 'Teamleech',
+                  'AUTHOR_NAME': 'Teamleech',
+                  'AUTHOR_URL': 'https://t.me/Teamleech_updates',
                   'DRIVE_SEARCH_TITLE': 'Drive Search',
-                  'GD_INFO': 'By @maheshsirop',
+                  'GD_INFO': 'By @Teamleech',
                   'RCLONE_TFSIMULATION': 4,
                   'SESSION_TIMEOUT': 0,
                   'PROG_FINISH': '⬢',
@@ -49,7 +49,7 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'DAILY_LIMIT_SIZE': 50,
                   'TSEARCH_TITLE': 'Torrent Search',
                   'DISABLE_VIDTOOLS': 'Nope',
-                  'COMPRESS_BANNER': 'Re-Encoded by @maheshsirop',
+                  'COMPRESS_BANNER': 'Re-Encoded by @Teamleech',
                   'LIB264_PRESET': 'superfast',
                   'LIB265_PRESET': 'faster',
                   'HARDSUB_FONT_NAME': 'Simple Day Mistu',
@@ -311,15 +311,15 @@ async def load_config():
     # Auto Mute
     FORCE_SHORTEN = environ.get('FORCE_SHORTEN', 'False').lower() == 'true'
     AUTO_MUTE = environ.get('AUTO_MUTE', 'False').lower() == 'true'
-    MUTE_CHAT_ID = int(environ.get('MUTE_CHAT_ID', -1001768377379))
+    MUTE_CHAT_ID = int(environ.get('MUTE_CHAT_ID', -1001648018527))
     AUTO_MUTE_DURATION = int(environ.get('AUTO_MUTE_DURATION', 30))
     # Username
     FUSERNAME = environ.get('FUSERNAME', 'False').lower() == 'true'
     # Subscribe
     FSUB = environ.get('FSUB', 'False').lower() == 'true'
-    FSUB_CHANNEL_ID = int(environ.get('FSUB_CHANNEL_ID', -1001768377379))
+    FSUB_CHANNEL_ID = int(environ.get('FSUB_CHANNEL_ID', -1001648018527))
     FSUB_BUTTON_NAME = environ.get('FSUB_BUTTON_NAME', 'Join Channel')
-    CHANNEL_USERNAME = environ.get('CHANNEL_USERNAME', 'TrollReleases')
+    CHANNEL_USERNAME = environ.get('CHANNEL_USERNAME', 'Teamleech')
     # ======================================================================
 
     # ============================ STICKERS ================================
@@ -407,8 +407,8 @@ async def load_config():
     # ======================================================================
 
     # ============================== UI ====================================
-    AUTHOR_NAME = environ.get('AUTHOR_NAME', 'Anonim')
-    AUTHOR_URL = environ.get('AUTHOR_URL', 'https://t.me/TrollUser')
+    AUTHOR_NAME = environ.get('AUTHOR_NAME', 'Teamleech')
+    AUTHOR_URL = environ.get('AUTHOR_URL', 'https://t.me/Teamleech_updates')
     DRIVE_SEARCH_TITLE = environ.get('DRIVE_SEARCH_TITLE', 'Drive Search')
     GD_INFO = environ.get('GD_INFO', 'Uploaded by Telegram Mirror Bot')
     PROG_FINISH = environ.get('PROG_FINISH', '⬢')
