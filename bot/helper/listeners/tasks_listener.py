@@ -245,7 +245,7 @@ class TaskListener(TaskConfig):
                 await sendMedia(msg, chat_id, reply_to)
             else:
                 await sendCustom(msg, chat_id)
-        msg = 
+        msg = f'<a <b>Powered By TeamLeech</b></i></a>\n\n'
         msg += f'<code>{escape(self.name)}</code>\n'
         msg += f'<b>┌ Size: </b>{size}\n'
         if self.isLeech:
