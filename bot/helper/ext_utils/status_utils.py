@@ -125,7 +125,7 @@ def action(message: Message):
 
 
 def get_readable_message(sid: int, is_user: bool, page_no: int=1, status : str='All', page_step: int=1):
-    msg =
+    msg = f'<a <b>Powered By TeamLeech</b></i></a>\n\n'
     dl_speed = up_speed = 0
 
     if status == 'All':
