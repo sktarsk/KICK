@@ -52,7 +52,7 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'COMPRESS_BANNER': 'Re-Encoded by @Teamleech',
                   'LIB264_PRESET': 'superfast',
                   'LIB265_PRESET': 'faster',
-                  'HARDSUB_FONT_NAME': 'Simple Day Mistu',
+                  'HARDSUB_FONT_NAME': 'TEAM MOVIES',
                   'HARDSUB_FONT_SIZE': '',
                   'DISABLE_MULTI_VIDTOOLS': '',
                   'IMAGE_ARIA': 'https://graph.org/file/24e3bbaa805d49823eddd.png',
@@ -215,11 +215,11 @@ async def load_config():
     YT_DLP_OPTIONS = environ.get('YT_DLP_OPTIONS', '')
     DAILY_LIMIT_SIZE = int(environ.get('DAILY_LIMIT_SIZE', 2))
     VIDTOOLS_FAST_MODE = environ.get('VIDTOOLS_FAST_MODE', 'False').lower() == 'true'
-    COMPRESS_BANNER = environ.get('COMPRESS_BANNER', 'Re-Endoced by @AIOReleases')
+    COMPRESS_BANNER = environ.get('COMPRESS_BANNER', 'Re-Endoced by @Teamleech')
     LIB264_PRESET = environ.get('LIB264_PRESET', 'superfast')
     LIB265_PRESET = environ.get('LIB265_PRESET', 'faster')
     HARDSUB_FONT_SIZE = environ.get('HARDSUB_FONT_SIZE', '20')
-    HARDSUB_FONT_NAME = environ.get('HARDSUB_FONT_NAME', 'Simple Day Mistu')
+    HARDSUB_FONT_NAME = environ.get('HARDSUB_FONT_NAME', 'TEAM MOVIES')
     DISABLE_VIDTOOLS = environ.get('DISABLE_VIDTOOLS', 'compress convert watermark')
     DISABLE_MULTI_VIDTOOLS = environ.get('DISABLE_MULTI_VIDTOOLS', 'compress rmstream extract trim watermark convert')
     START_MESSAGE = environ.get('START_MESSAGE', '')
