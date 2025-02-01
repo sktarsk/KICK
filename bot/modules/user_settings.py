@@ -287,7 +287,7 @@ async def get_user_settings(from_user, data: str, uset_data: str):
                 buttons.button_data('✅ Log Title' if log_title else 'Log Title', f'userset {user_id} setdata dump_ch {not log_title}')
             elif uset_data == 'metadata':
                 clean_meta = user_dict.get('clean_metadata')
-                buttons.button_data('✅ Clean' if clean_meta, f'userset {user_id} setdata metadata {not clean_meta}')
+                buttons.button_data('✅ Clean' if clean_meta else '✅ Overwrite', f'userset {user_id} setdata metadata {not clean_meta}')
 
             key, butkey, text, image, qdata = uset_dict[uset_data]
             if user_dict.get(key) or key == 'yt_opt' and config_dict['YT_DLP_OPTIONS']:
