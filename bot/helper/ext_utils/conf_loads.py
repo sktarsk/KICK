@@ -40,8 +40,8 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'GD_INFO': 'By @Teamleech',
                   'RCLONE_TFSIMULATION': 4,
                   'SESSION_TIMEOUT': 0,
-                  'PROG_FINISH': '⬢',
-                  'PROG_UNFINISH': '⬡',
+                  'PROG_FINISH': '■',
+                  'PROG_UNFINISH': '□',
                   'SOURCE_LINK_TITLE': 'Source Link',
                   'TIME_ZONE': 'Asia/Kolkata',
                   'TIME_ZONE_TITLE': 'UTC+5:30',
@@ -411,8 +411,8 @@ async def load_config():
     AUTHOR_URL = environ.get('AUTHOR_URL', 'https://t.me/Teamleech_updates')
     DRIVE_SEARCH_TITLE = environ.get('DRIVE_SEARCH_TITLE', 'Drive Search')
     GD_INFO = environ.get('GD_INFO', 'Uploaded by Telegram Mirror Bot')
-    PROG_FINISH = environ.get('PROG_FINISH', '⬢')
-    PROG_UNFINISH = environ.get('PROG_UNFINISH', '⬡')
+    PROG_FINISH = environ.get('PROG_FINISH', '■')
+    PROG_UNFINISH = environ.get('PROG_UNFINISH', '□')
     SOURCE_LINK_TITLE = environ.get('SOURCE_LINK_TITLE', 'Source Link')
     TIME_ZONE = environ.get('TIME_ZONE', 'Asia/Jakarta')
     TIME_ZONE_TITLE = environ.get('TIME_ZONE_TITLE', 'UTC+7')
