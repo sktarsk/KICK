@@ -1,10 +1,13 @@
-FROM mysterysd/wzmlx:latest
+FROM mysterysd/wzmlx:hkwzv3
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
+RUN uv venv
+
 COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN uv pip install --upgrade pip setuptools
+RUN uv pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
