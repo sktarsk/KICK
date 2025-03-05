@@ -1,9 +1,7 @@
-FROM mysterysd/wzmlx:hkwzv3
+FROM mysterysd/wzmlx:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
-
-RUN uv venv
 
 COPY requirements.txt .
 RUN uv pip install --upgrade pip setuptools
